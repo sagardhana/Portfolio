@@ -59,7 +59,7 @@ c = input()
 print("Enter Petal Width")
 d = input()
 user_in = [a,b,c,d]
-print("KEY: [1] = Iris Setosa [2] = Iris versicolor [3] = Iris virginica\n")
+print("KEY: [0] = Iris Setosa [1] = Iris versicolor [2] = Iris virginica\n")
 print("GridSearchCV Prediction: ")
 print(gridsearch.predict([user_in]))
 print("RandomizedSearchCV Prediction: ")
